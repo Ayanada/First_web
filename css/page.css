@@ -1,0 +1,176 @@
+/* Start Upper bar  #cac1e9 #32255f*/
+.clearfix{clear: both;}
+.upper-bar{background-color: #2C333D;color: #fff;margin: 0;overflow: hidden;}
+.upper-bar .one,.upper-bar .two{margin: 10px 0;}
+.upper-bar ul li,.footer ul li{display: inline-block;padding-left: 10px;text-align: center}
+.upper-bar ul li a,.footer ul li a{color: #FFF;cursor: pointer}
+.upper-bar ul li a:hover ,.footer ul li a:hover{color: #c1baba; }
+@media(max-width:576px){
+    .upper-bar .one:first-child{ margin-bottom: 0 } 
+}
+/* End Upper bar */
+/* Start Navbar */
+.navbar-brand h2{color: #cac1e9;font-weight: bold;font-size: 33px}
+.navbar-light .navbar-nav .nav-link{ color:#2C333D ;text-transform: uppercase;margin-left: 15px;
+    font-size: 18px;font-weight: 600;}
+.navbar-nav .active > .nav-link,.navbar-light .navbar-nav .nav-link:hover {color: #cac1e9 !important}
+/* End Navbar */
+/* Start about us */
+.about-us{background-image: url(../images/light.jpg);padding-bottom:30px  }
+.about-us h2{font-size: 33px;font-weight: 600;color: #544686;
+             padding-bottom:50px;padding-top: 60px;}
+.about-us .about_image{}
+.about-us .one{font-size: 20px;font-weight: 500;margin-top: -9px;
+               line-height: 1.6;padding-bottom: 14px}
+.about-us .two{font-size: 18px;color: #7a7979;
+               font-weight: 400;line-height: 1.7;}
+/* End about us */
+/* Start about_News */
+.about_News{padding:50px 0 50px; }
+.about_News h3{font-size: 27px;font-weight: 500;padding-bottom: 30px;}
+.about_News li span {border-radius: 50%;padding:9px 19px; float: left;margin-right: 20px;
+                     background-color: #544686;color: #FFF;font-size: 25px;font-weight: 400;
+                     text-align: center; margin-top: 5px;} 
+.about_News .extra p{font-size: 16px;font-weight: 400;margin-bottom: 40px;}
+.about_News h4{text-transform:uppercase;font-size:18px;}
+.about_News .offer p{margin: 5px 0 15px 0;font-size: 14px;font-weight: 400;}
+.about_News .list1-2 li{overflow:hidden;font-size:18px;font-weight:400;margin-right: 19px;
+                        line-height: 1.4;margin-bottom: 2px;padding-top: 9px;}
+.about_News .list1-2 li i{color: #544686;font-size:16px;margin-right:5px;}
+.about_News .list1-2 li a,.about_News .testimon li a{color: #544686;}
+.about_News .list1-2 li a:hover,.about_News .testimon li a:hover{color: #cac1e9;}
+.about_News .testimon li p{margin-top: -26px;}
+.about_News .testimon li a{font-size:17px;font-weight: 500; }
+.about_News .testimon .two p{margin-top: 5px;margin-bottom:10px; }
+/* End about_News  */
+
+/* Start Section Testimonials */
+.shadow {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.35);
+}
+.testimonials {
+  width: 100%;
+  background: url(../images/Hotel.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 350px;
+  position: relative;
+  margin-top: 40px;
+}
+.testimonials h3{margin-top: 50px;}
+.testimonials .shadow{height: 350px}
+.testimonials p{margin: auto;color: #f0eded;font-size: 18px;font-weight: 300;margin-bottom: 30px;}
+.testimonials .carousel-inner{ min-height: 115px;}
+.testimonials span {font-size: 22px;color: #FFF;margin-top: 10px}
+/* End Secyion Testimonials */
+
+ /* Start Our Classess */
+.classess {background: #eee;padding: 40px 0 40px;}
+.classess h2{font-size: 40px;font-weight: 400;color:#544686;padding-bottom: 40px;}
+.classess .gallery-grid img{width:100%;}
+ classess .gallery-grid:hover img {
+  -webkit-filter: grayscale(100%);
+  opacity:8;
+  transition: all 300ms!important;
+  -webkit-transition: all 300ms!important;
+  -moz-transition: all 300ms!important;
+}
+ .classess .gallery-grid{padding: 0 5px;margin-top: 10px;}
+/* End Our Classess*/
+
+/* Start Our Contact US */
+.contact-us{padding:50px 0 50px;background-image: url(../images/light.jpg);  }
+.contact-us h2,.blog h2{margin-bottom: 25px;font-size: 37px;font-weight: 500;color:#544686}
+.contact-us h5{font-size: 23px;font-weight: 400;line-height: 1.2;
+               color: #544686;padding-bottom: 10px;}
+.contact-us p{font-size: 16px;font-weight: 400;line-height: 1.5;color: #595959;}
+.contact-us span{color: #544686;font-size: 16px;font-weight: 500;}
+.contact-us h6{font-size: 15px;font-weight: 400;margin-top: 11px;line-height: 1.3;}
+.contact-us .name{padding-bottom:8px;}
+.contact-us a{font-size: 15px;font-weight: 400;color: #544686;}
+.contact-us a:hover{color:#cac1e9}
+.contact-us .form-group label{color: #544686;font-weight: 500;font-size: 15px;}
+.contact-us .form-group input[type="text"]{width:510px;margin-bottom: 20px;}
+.contact-us .form-group .My-btn{color: #FFF;background-color: #544686;padding: 5px 10px;
+                                border: none;border-radius: 7px;margin-top: 10px;}
+.contact-us hr{border: 2px solid #544686;margin-top: 40px;}
+ .contact-us .map {margin-bottom: 10px;margin-top: 30px;
+  height: 400px;}
+/* End Our Contact US */
+
+/* Start our Blog */
+.blog,.single{background-color: #eee;padding-bottom: 30px}
+.blog h2{margin-bottom: 50px;padding-top: 30px}
+.blog .date ,.single .date{border-right:1px solid #544686;padding-right:20px;float: left;
+            margin-right: 30px;margin-top: 15px}
+.blog .date b ,.single .date b{font-size: 45px;font-weight: 500;
+                               display: block;height: 55px;color: #544686}
+.blog .date span ,.single .date span{display: block;color: #544686;font-size:23px;padding-top: 5px;
+                 padding-left: 5px;}
+.blog h5,.single h5{font-size: 19px;font-weight: 500;line-height: 1.3;
+         margin-top: 15px;margin-bottom: 12px;}
+.blog h5 a ,.blog h6 a ,.single h5 a,.single h6 a{color: #544686;}
+.blog h5 a:hover,.blog h6 a:hover,.single h5 a:hover,.single h6 a:hover{color:#cac1e9}
+.blog h6{margin-bottom: 16px;}
+.blog p,.single p{color: #595858;font-size: 15px;font-weight: 400;padding-left: 90px;}
+.blog .btn{background-color:#544686;color: #FFF;padding: 6px 14px;margin-left: 86px;
+           margin-bottom: 40px;}
+.blog .btn a{color: #fff;}
+.blog .page{margin: 10px 0 20px;margin-left: 30%}
+.pagination > li > a, .pagination > li > span{
+    padding: 10px 20px;
+    color: #000;
+    border: 1px solid #544686;
+    font-weight: 800
+}
+.pagination > .active > a{background-color: #544686;color: #fff}
+
+@media(max-width:1200px){
+    .blog img{width:98%; }
+}
+
+@media(max-width:768px){
+ .blog .page{margin-left: 10%}
+}
+/* End our Blog */
+/* start our single */
+.single{padding-top: 40px;}
+.single h3{font-size:27px;color: #544686; }
+.single .single-date span {font-weight: 700;font-size: 18px;}
+.single .single-img {margin-bottom: 20px;margin-top: 20px;}
+.single .single-img img {width: 100%;height: 370px;border: 1px solid #cecece;}
+.single p{padding-left: 95px;}
+.single .list-item{padding-left: 85px;}
+.single .list-item li{padding-bottom: 8px;}
+.single .list-item li a{color: #544686;font-size: 17px;text-decoration: none}
+.single .list-item li a:hover{color: #cac1e9;padding-left: 5px;padding-bottom: 5px;}
+/* End our single */
+/* Start Our Footer */
+.footer{background: #2c333d;padding: 40px 0 30px;color: #FFF;}
+.footer h5{font-size: 23px;font-weight: 400;margin-bottom: 13px;}
+.footer p{font-size: 14px;font-weight: 400;line-height: 1.6;color: #d2d1d1;}
+.footer .two {padding-top: 20px}
+.footer input[type="text"],.footer input[type="submit"]
+ {
+    background: none;border: none;outline: none;padding-top: 15px;
+}
+
+.footer input[type="text"]{width: 72%;padding: 7px 12px;font-size: 15px;
+                           float: left;color: #9C9C9C; 
+                           background: #fff;}
+.footer input[type="submit"]{width: 23%;font-size: 15px;padding:7px 12px;
+    background: #5D6167;color: #FFF;}
+.footer p a{color:#8b8b8c;text-decoration: none}
+.footer ul li{padding-right: 10px;padding-left: 0} 
+@media(max-width:768px){
+    .footer .one{margin-bottom: 20px;}
+}
+.copyright{background-color: #000;color:#8b8b8c;padding:10px 0 10px; }
+/* End Our Footer */
